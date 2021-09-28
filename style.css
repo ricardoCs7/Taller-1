@@ -56,5 +56,6 @@ padding-right: 25px;
 }
 
 
-
-} 
+.card :hover{
+    color: red;
+}
