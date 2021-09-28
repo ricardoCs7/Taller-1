@@ -38,7 +38,7 @@ padding-right: 25px;
 
 #main{
     
-    width: 99%;
+    width: 100%;
 }
 
 #box1{
@@ -55,7 +55,19 @@ padding-right: 25px;
     height: 100%;
 }
 
+#titular{
+    height: 5rem;
+    padding: 1rem;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
 
 .card :hover{
     color: red;
+   
 }
+
+#card2 :hover{
+    color: blue;
+  }
