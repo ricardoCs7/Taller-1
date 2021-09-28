@@ -1,0 +1,60 @@
+
+#box{
+padding-left: 25px;
+padding-right: 25px;
+}
+
+.navbar-light{
+    background-color: lightskyblue;
+}
+
+#search{
+    background-color: wi;
+}
+
+.col-sm-6{
+    margin-top: 50px;
+   
+    border: darkslateblue solid 1px;
+    border-radius: 12px;
+}
+
+.form-group{
+    margin-bottom: 15px;
+}
+
+
+
+#formulario{
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logo{
+    width: 80%;
+    margin: 0;
+}
+
+#main{
+    
+    width: 99%;
+}
+
+#box1{
+    margin-top: 15px;
+
+}
+
+.col-md-14 {
+    margin-top: 6px;
+}
+
+#cartas{
+    margin-top: 45px;
+    height: 100%;
+}
+
+
+
+} 
