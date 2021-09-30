@@ -1,5 +1,8 @@
-const comments_array = [10];
-var box = document.getElementById("comentarios");
+document.addEventListener('DOMContentLoaded', getLocal, false);
+
+const comments_array = [];
+var box = document.getElementById("cajaComentarios");
+var commit = document.getElementById("commit");
 
 function addComentario() {
 
@@ -11,21 +14,21 @@ function addComentario() {
         if (localStorage.getItem("comentarios") == null) {
             localStorage.setItem("comentarios", "[]");
         }
-    
+
         if (comentario) {
             const comments_array = JSON.parse(localStorage.getItem("comentarios"));
             comments_array.push({ nombre, comentario });
             localStorage.setItem("comentarios", JSON.stringify(comments_array));
         }
-       
+        alert("comentario publicado")
     }
 }
 
+function getLocal() {
+    const comentario = JSON.parse(localStorage.getItem("comentarios"));
+    console.log(comentario);
 
-
-function getLocallStorage() {
-    var com = localStorage.getItem("comentarios");
-    return document.getElementById("comentarios").innerHTML= com;
+    box.innerHTML = JSON.parse(localStorage.getItem("comentarios"));
 }
 
 

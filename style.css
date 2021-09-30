@@ -71,3 +71,7 @@ padding-right: 25px;
 #card2 :hover{
     color: blue;
   }
+#cajaComentarios{
+    border: red solid 2px;
+    border-color: red solid 1px;
+}
