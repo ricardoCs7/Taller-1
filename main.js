@@ -32,8 +32,9 @@ function getLocal() {
  <div class="card text-left" id="com">
  
    <div class="card-body">
-     <h4 class="card-title"> <img display: "inline-flex"; id="perfil" src="https://www.w3schools.com/howto/img_avatar.png" alt="Person" width="96" height="96">  ${index.nombre}</h4>
+     <h5 class="card-title"> <img display: "inline-flex"; id="perfil" src="https://www.w3schools.com/howto/img_avatar.png" alt="Person" width="96" height="96">  ${index.nombre}</h4>
      <p class="card-text">${index.commit}</p>
+     <p class="card-text">${Date().toLocaleString()}</p>
    </div>
  </div>
  `;

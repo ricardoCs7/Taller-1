@@ -16,7 +16,7 @@
 
 <body style="background-color: lightskyblue;">
 
-    <nav class="navbar navbar-expand-sm navbar-light ">
+    <nav class="navbar navbar-expand-sm navbar-light">
         <a class="navbar-brand" href="#"> <img id="logo" src="https://anfpfotos.cl/images/logo-web.png" alt=""></a>
         <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
             aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,15 +25,15 @@
         <div class="collapse navbar-collapse" id="collapsibleNavId">
             <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#">Home <span class="sr-only"></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="comentarios.html">Comentarios</a>
                 </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="text" placeholder="Search">
-                <button id="search" class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                <input class="form-control mr-sm-2" type="text" placeholder="Buscar">
+                <button id="search" class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
             </form>
         </div>
     </nav>
@@ -62,25 +62,34 @@
                             <p style="text-align: center;" class="card-text">Año: 1895</p>
                         </div>
                     </div>
-                    <div class="card" id="card2">
+                    <div class="card" id="card1">
                         <div class="card-body">
-                            <h4 class="card-title">Mejor Ranking Histórico</h4>
+                            <h4 class="card-title"><b>Mejor Ranking Histórico: </b></h4>
                             <p style="text-align: center;" class="card-text">Ranking Fifa: 3er puesto (2016)</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-14">
-                    <div class="card" id="card1">
-                        <div class="card-body">
-                            <ul id="lista1">
-                                <li><Span><b>Escudo Oficial: </b><img
-                                            src="https://anfpfotos.cl/clubes//322762a03d21051fa7b2fa0c962609df.png"
-                                            width="80"></Span></li>
-                                <li><span><b>Camiseta Local: </b><img
-                                            src="https://cdn.fifacm.com/content/media/imgs/fifa21/kits/j0_111459_0.png "
-                                            width="80"></span></li>
-                            </ul>
-                        </div>
+                <div class="row" style="margin-left: auto; margin-right: auto; margin-top: 10px;">
+                    <div id="simbolos" class="col-lg" style="background-color:white;">
+                        <h4 class="card-title"><b>Escudo: </b></h4>
+                        <ul id="lista3">
+                            <span><img src="https://anfpfotos.cl/notas/logo-federacion2019.png" width="150"
+                                    alt=""></span>
+                        </ul>
+                    </div>
+                    <div id="simbolos" class="col-lg" style="background-color:white">
+                        <h4  class="card-title "><b>Camiseta Local: </b></h4>
+                        <ul id="lista3">
+                            <span><img src="https://cdn.fifacm.com/content/media/imgs/fifa21/kits/j0_111459_0.png"
+                                    width="150" alt=""></span>
+                        </ul>
+                    </div>
+                    <div id="simbolos" class="col-lg" style="background-color:white">
+                        <h4 class="card-title"><b>Camiseta Vistante: </b></h4>
+                        <ul id="lista3">
+                            <span><img src="https://cdn.fifacm.com/content/media/imgs/fifa21/kits/j1_111459_0.png" width="150"
+                                    alt=""></span>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -128,7 +137,6 @@
                                         width="40"></span></li>
                         </ul>
                     </div>
-
                 </div>
             </div>
         </div>
@@ -136,10 +144,26 @@
 
 
 
-        <div class="row">
-            <div class="col-6" style="background-color:forestgreen;">33.33%</div>
-            <div class="col-sm" style="background-color:orange;">33.33%</div>
-            <div class="col-3" style="background-color:yellow;">33.33%</div>
+        <div class="row" style="margin-left: auto; margin-right: auto; margin-top: 10px;">
+            <div class="col-lg" style="background-color:whitesmoke;">
+                <h3 style="color: blue;">Jugadores Con Mayor Participación</h3>
+                <ul id="lista2">
+                    <li><span>Alexis Sánchez: 139 partidos</span></li>
+                    <li><span>Gary Medel: 137 partidos</span></li>
+                    <li><span>Claudio Bravo: 136 partidos</span></li>
+                    <li><span>Gonzalo Jara: 128 partidos</span></li>
+                </ul>
+            </div>
+            <div class="col-lg" style="background-color:white">
+                <h3 style="color: red;">Máximos Goleadores</h3>
+                <ul id="lista2">
+                    <li><span>Alexis Sánchez: 46 goles</span></li>
+                    <li><span>Eduardo Vargas: 40 goles</span></li>
+                    <li><span>Marcelo Salas: 37</span></li>
+                    <li><span>Iván Zamorano: 34</span></li>
+                </ul>
+            </div>
+
         </div>
         <br>
 
@@ -148,14 +172,14 @@
             <div data-index="index" id="cajaComentarios">
 
             </div>
+           <div>
+               <div class="col-xs-1-12">
+                    <a name="" id="" class="btn btn-danger" href="comentarios.html" role="button">Comentar</a>
+               </div>
+           </div>
         </div>
 
-        <div class="row">
-            <div class="col" style="background-color:yellow;">25%</div>
-            <div class="col" style="background-color:orange;">25%</div>
-            <div class="col" style="background-color:yellow;">25%</div>
-            <div class="col" style="background-color:orange;">25%</div>
-        </div>
+    
     </div>
 
 
