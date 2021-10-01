@@ -1,16 +1,20 @@
-
-#box{
-padding-left: 25px;
-padding-right: 25px;
+.h3{
+    text-align: center;
 }
 
+#box{
+width: 100%;
+}
+
+.row{
+    width: 100%;
+}
 .navbar-light{
+    width: 100%;
     background-color: lightskyblue;
 }
 
-#search{
-    background-color: wi;
-}
+
 
 .col-sm-6{
     margin-top: 50px;
@@ -22,7 +26,6 @@ padding-right: 25px;
 .form-group{
     margin-bottom: 15px;
 }
-
 
 
 #formulario{
@@ -37,8 +40,7 @@ padding-right: 25px;
 }
 
 #main{
-    
-    width: 100%;
+   width: 100%;
 }
 
 #box1{
@@ -51,27 +53,83 @@ padding-right: 25px;
 }
 
 #cartas{
-    margin-top: 45px;
-    height: 100%;
+    margin-top: 10px;
 }
 
 #titular{
-    height: 5rem;
-    padding: 1rem;
+    height: 6rem;
+    padding-top: 1rem;
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 }
 
-.card :hover{
-    color: red;
-   
+#card1 :hover{
+    color: red;  
+}
+#lista1 li{
+    display:inline;
+    padding-left:3px;
+    padding-right:3px;
 }
 
 #card2 :hover{
     color: blue;
   }
-#cajaComentarios{
-    border: red solid 2px;
-    border-color: red solid 1px;
+
+#com{
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: whitesmoke;
+    border: black solid 3px;
+
+}
+.cardeck{
+    width: 40%;
+    align-items: center;
+    text-align: center;
+}
+
+#logoBanner{
+    width: 45px;
+    height: 45px;
+}
+
+#trofeos{
+    margin-left: auto;
+    margin-right: auto;
+    width: 98%;
+}
+
+@media only screen and (min-width: 550px) {
+    .box {
+      width: 100%;
+    }
+    
+    #lista1{
+        margin-top: 15px;
+        text-align: center;
+    }
+   
+}
+
+@media only screen and (max-width: 550px) {
+    #central{
+        font-size:35px;
+    }
+    #main{
+        width: 99%;
+    }
+    #lista1{
+        
+        width: 850px;
+        padding-left: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .box{
+        width: 850px;
+    }
+   
 }

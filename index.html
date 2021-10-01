@@ -14,7 +14,7 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
-<body>
+<body style="background-color: lightskyblue;">
 
     <nav class="navbar navbar-expand-sm navbar-light ">
         <a class="navbar-brand" href="#"> <img id="logo" src="https://anfpfotos.cl/images/logo-web.png" alt=""></a>
@@ -30,14 +30,6 @@
                 <li class="nav-item">
                     <a class="nav-link" href="comentarios.html">Comentarios</a>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">Dropdown</a>
-                    <div class="dropdown-menu" aria-labelledby="dropdownId">
-                        <a class="dropdown-item" href="#">Action 1</a>
-                        <a class="dropdown-item" href="#">Action 2</a>
-                    </div>
-                </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" type="text" placeholder="Search">
@@ -50,20 +42,21 @@
 
 
 
-    <div class="row">
-        <div class="col" id="titular" style="background-color:#F75147">
-            <h1>Selección de fútbol de Chile</h1>
-        </div>
+
+    <div class="col" id="titular" style="background-color:#F75147">
+        <h1 id="central">Selección de fútbol de Chile</h1>
     </div>
 
     <div id="box">
         <div class="row">
-            <div class="col-md-4" style="background-color:blue;"><img id="main"
-                    src="https://www.prensafutbol.cl/wp-content/uploads/2016/02/Camiseta_Logo_FederacionDeFutbolDeChile.jpg"
-                    class="rounded float-left" alt="..."></div>
+            <div class="col-md-4">
+                <span><img id="main"
+                        src="https://www.prensafutbol.cl/wp-content/uploads/2016/02/Camiseta_Logo_FederacionDeFutbolDeChile.jpg"
+                        class="rounded float-left" alt="..."></span>
+            </div>
             <div class="col-md">
-                <div class="card-deck">
-                    <div class="card">
+                <div class="card-deck" id="cartas">
+                    <div class="card" id="card1">
                         <div class="card-body">
                             <h4 class="card-title"><b>Fundación: </b></h4>
                             <p style="text-align: center;" class="card-text">Año: 1895</p>
@@ -77,40 +70,84 @@
                     </div>
                 </div>
                 <div class="col-md-14">
-                    <div class="card">
-
+                    <div class="card" id="card1">
                         <div class="card-body">
-                            <h4 class="card-title">Información</h4>
-                            <p style="text-align: center;" class="card-text">Simulación de una web de acciones y valores
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-14">
-                    <div class="card" id="card2">
-
-                        <div class="card-body">
-                            <h4 class="card-title">Importante</h4>
-                            <p style="text-align: center;" class="card-text">Datos y valores, correspondientes a la
-                                fecha de 06/09/21 </p>
+                            <ul id="lista1">
+                                <li><Span><b>Escudo Oficial: </b><img
+                                            src="https://anfpfotos.cl/clubes//322762a03d21051fa7b2fa0c962609df.png"
+                                            width="80"></Span></li>
+                                <li><span><b>Camiseta Local: </b><img
+                                            src="https://cdn.fifacm.com/content/media/imgs/fifa21/kits/j0_111459_0.png "
+                                            width="80"></span></li>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
+
         </div>
-        <br>
-        <div class="col" style="background-color:yellow;">20%</div>
-        <br>
+        <div class="col" style="background-color:yellow; height: 60px;">
+            <h2><i><img src="https://images.vexels.com/media/users/3/166374/isolated/lists/2d110c8fc75eff04efb10ec632216b01-trofeo-de-graduacion-plana.png"
+                        id="logoBanner" alt=""></i>Títulos</h2>
+        </div>
+        <div>
+            <div class="card-deck" id="trofeos">
+                <div class="card">
+                    <img class="card-img-top" src="holder.js/100x180/" alt="">
+                    <div class="card-body">
+                        <h4 style="text-align: center;" class="card-title"> <span><img
+                                    src="https://anfpfotos.cl/img/copamerica.png" alt=""></span>Copa América
+                            2015</h4>
+                        <p class="card-text" style="text-align: center;">Jugada en Chile el 04/07/2015, final vs
+                            Argentina, definida por penales</p>
+                        <ul id="lista1">
+                            <li><Span> <img src="https://anfpfotos.cl/clubes//322762a03d21051fa7b2fa0c962609df.png"
+                                        width="40"></span></li>
+                            <li><span><b> 4-1</b>
+                                </span></li>
+                            <li><span><img src="https://anfpfotos.cl/clubes/2ca171b719b56623b7f739026416ff19.png"
+                                        width="40"></span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="holder.js/100x180/" alt="">
+                    <div class="card-body">
+                        <h4 style="text-align: center;" class="card-title"><span><img
+                                    src="https://anfpfotos.cl/img/copacentenario.png" alt=""></span> Copa Centenario
+                            2016</h4>
+                        <p class="card-text" style="text-align: center;">Jugada en Estados Unidos el 26/06/16, final vs
+                            Argentina, definida por
+                            penales</p>
+                        <ul id="lista1">
+                            <li><Span> <img src="https://anfpfotos.cl/clubes//322762a03d21051fa7b2fa0c962609df.png"
+                                        width="40"></span></li>
+                            <li><span><b> 4-1</b>
+                                </span></li>
+                            <li><span><img src="https://anfpfotos.cl/clubes/2ca171b719b56623b7f739026416ff19.png"
+                                        width="40"></span></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+
         <div class="row">
-            <div class="col-sm-4" style="background-color:yellow;">33.33%</div>
-            <div class="col-sm-4" style="background-color:orange;">33.33%</div>
-            <div class="col-sm-4" style="background-color:yellow;">33.33%</div>
+            <div class="col-6" style="background-color:forestgreen;">33.33%</div>
+            <div class="col-sm" style="background-color:orange;">33.33%</div>
+            <div class="col-3" style="background-color:yellow;">33.33%</div>
         </div>
         <br>
 
-       
-        <div data-index="index" id="cajaComentarios">
-           
+
+        <div class="container">
+            <div data-index="index" id="cajaComentarios">
+
+            </div>
         </div>
 
         <div class="row">
