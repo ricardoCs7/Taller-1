@@ -17,13 +17,16 @@ function addComentario() {
         }
 
         if (commit) {
+
             const comments_array = JSON.parse(localStorage.getItem("comentarios"));
-            comments_array.push({ nombre, commit, fecha  });
+            comments_array.push({ nombre, commit, fecha });
             localStorage.setItem("comentarios", JSON.stringify(comments_array));
         }
         alert("comentario publicado")
     }
 }
+
+
 
 
 function getLocal() {
